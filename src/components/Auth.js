@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { useDispatch } from "react-redux";
 
-import { authActions } from "../store";
+import { authActions } from "../store/auth";
 
 import styles from "./Auth.module.css";
 
